@@ -14,8 +14,8 @@ const skills = [
   { name: "Python", level: "Advanced", category: "Language", icon: Code },
   { name: "Flask", level: "Advanced", category: "Framework", icon: FileCode },
   { name: "C", level: "Intermediate", category: "Language", icon: Cpu },
-  { name: "Java", level: "Advanced", category: "Language", icon: Coffee },
-  { name: "React", level: "Advanced", category: "Framework", icon: Atom },
+  { name: "Java", level: "Intermediate", category: "Language", icon: Coffee },
+  { name: "React", level: "Intermediate", category: "Framework", icon: Atom },
   { name: "Flutter", level: "Intermediate", category: "Framework", icon: Smartphone },
 ];
 

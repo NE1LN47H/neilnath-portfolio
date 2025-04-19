@@ -60,7 +60,7 @@ export const Hero = () => {
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.7, duration: 0.8 }}
           >
-            Software Engineer
+            Developer
           </motion.span>{" "}
           <motion.span
             initial={{ opacity: 0 }}
