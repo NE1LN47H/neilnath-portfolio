@@ -3,18 +3,18 @@ import React from 'react';
 import { 
   Code, 
   FileCode, 
-  Python, 
-  Java, 
-  React as ReactIcon, 
+  Cpu, 
+  Coffee,
+  Blocks, 
   FileCode2 
 } from 'lucide-react';
 
 const skills = [
-  { name: "Python", level: "Advanced", category: "Language", icon: Python },
+  { name: "Python", level: "Advanced", category: "Language", icon: Code },
   { name: "Flask", level: "Advanced", category: "Framework", icon: FileCode },
-  { name: "C", level: "Intermediate", category: "Language", icon: Code },
-  { name: "Java", level: "Advanced", category: "Language", icon: Java },
-  { name: "React", level: "Advanced", category: "Framework", icon: ReactIcon },
+  { name: "C", level: "Intermediate", category: "Language", icon: Cpu },
+  { name: "Java", level: "Advanced", category: "Language", icon: Coffee },
+  { name: "React", level: "Advanced", category: "Framework", icon: Blocks },
   { name: "Flutter", level: "Intermediate", category: "Framework", icon: FileCode2 },
 ];
 
