@@ -1,20 +1,21 @@
+
 import React from 'react';
 import { 
-  Python, 
-  Flask, 
-  C, 
-  Java,
-  React as ReactIcon, 
-  Flutter 
+  Code, 
+  FileCode, 
+  Cpu, 
+  Coffee,
+  Atom, 
+  Smartphone 
 } from 'lucide-react';
 
 const skills = [
-  { name: "Python", level: "Advanced", category: "Language", icon: Python },
-  { name: "Flask", level: "Advanced", category: "Framework", icon: Flask },
-  { name: "C", level: "Intermediate", category: "Language", icon: C },
-  { name: "Java", level: "Advanced", category: "Language", icon: Java },
-  { name: "React", level: "Advanced", category: "Framework", icon: ReactIcon },
-  { name: "Flutter", level: "Intermediate", category: "Framework", icon: Flutter },
+  { name: "Python", level: "Advanced", category: "Language", icon: Code },
+  { name: "Flask", level: "Advanced", category: "Framework", icon: FileCode },
+  { name: "C", level: "Intermediate", category: "Language", icon: Cpu },
+  { name: "Java", level: "Advanced", category: "Language", icon: Coffee },
+  { name: "React", level: "Advanced", category: "Framework", icon: Atom },
+  { name: "Flutter", level: "Intermediate", category: "Framework", icon: Smartphone },
 ];
 
 export const Skills = () => {
